@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
-import sys
 ipvalid = False
-
-# Checking if two arguments were passed, with 1st being script name itself, second one - ip address. 
-#If none or more than two are passed, exiting the program
 
 while ipvalid == False:
 	ip = raw_input("Please enter ip address :")
